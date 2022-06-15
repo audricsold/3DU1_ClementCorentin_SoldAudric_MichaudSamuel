@@ -16,3 +16,4 @@ public class menu : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 }
+
