@@ -34,7 +34,7 @@ Réalisé par Audric, Coco et Sam
            ------------------------
           |  COMMANDES :           |
           | -----------------------|
-          |  w,a,s,d : se deplacer |       Note : Utiliser un clavier qwerty.
+          |  w,a,s,d : se deplacer |       Note : Utiliser un clavier qwerty ou changer la langue du clavier.
           |  shift : accelerer     |
           |  espace : sauter       |
           |  echap : pause (menu)  |
@@ -42,6 +42,7 @@ Réalisé par Audric, Coco et Sam
 
 Features :
  - Menu permettant de mettre pause, fermer le jeu et reprendre la partie.
- - Particle systems,
+ - respawn en tombant.
+ - Particle systems, Raycast, Trigger, box/mesh collider, rigidbody, skybox.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
