@@ -1,0 +1,700 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'fr' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Hub\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity Projet/3DU1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54282
+Successfully changed project path to: E:/Unity Projet/3DU1
+E:/Unity Projet/3DU1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 88.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path E:/Unity Hub/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projet/3DU1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'E:/Unity Hub/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Hub/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Hub/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Hub/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002189 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.612 seconds
+Domain Reload Profiling:
+	ReloadAssembly (612ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003996 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projet\3DU1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projet\3DU1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3876.
+Memory consumption went from 119.2 MB to 119.1 MB.
+Total: 2.792000 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.241500 ms MarkObjects: 2.185600 ms  DeleteObjects: 0.085900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90945.437261 seconds.
+  path: Assets/sprite muzzle flashes/ef_3.mat
+  artifactKey: Guid(7bb2f796890e880489e15df07f511047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/ef_3.mat using Guid(7bb2f796890e880489e15df07f511047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d83eab7248f4850127861e656407a6') in 0.205340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprite muzzle flashes/ef_8.mat
+  artifactKey: Guid(3fb502b572d231d41a4934d5b1f1a13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/ef_8.mat using Guid(3fb502b572d231d41a4934d5b1f1a13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f857a878913a01b086c639b5e28a142b') in 0.040838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprite muzzle flashes/ef_5.mat
+  artifactKey: Guid(8d2bb5310b94f50449af2044569b333d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/ef_5.mat using Guid(8d2bb5310b94f50449af2044569b333d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb90a94b9f4d053a488fafe180411ef') in 0.044825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.256160 seconds.
+  path: Assets/sprite muzzle flashes
+  artifactKey: Guid(3eb8f7d31510ab24bac8c581cc768d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes using Guid(3eb8f7d31510ab24bac8c581cc768d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2c826d38eeba075767208b478d034f') in 0.001098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.469942 seconds.
+  path: Assets/sprite muzzle flashes/Red
+  artifactKey: Guid(ecda5663d4a1a214d952100560581e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red using Guid(ecda5663d4a1a214d952100560581e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b006f211665401b4b1ab522a479693') in 0.001222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.856949 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_8
+  artifactKey: Guid(3973975c75f8b4045bce25d9ad39474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_8 using Guid(3973975c75f8b4045bce25d9ad39474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed76184057013a6ebd8517def859561') in 0.001268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086539 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_8/ef_8_00000.png
+  artifactKey: Guid(1dd4297211ffa344db106edb13789c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_8/ef_8_00000.png using Guid(1dd4297211ffa344db106edb13789c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5198e2f9bcc5c1451dd7bd705ed87eb6') in 0.072908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_8/ef_8_00003.png
+  artifactKey: Guid(3a9eb837981934c4cb9cb22f2f271b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_8/ef_8_00003.png using Guid(3a9eb837981934c4cb9cb22f2f271b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c476dd528ea822d65e8a8face4f84af') in 0.043079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.029530 seconds.
+  path: Assets/sprite muzzle flashes/demo.unity
+  artifactKey: Guid(eaa586583ee588847a1de3753726e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/demo.unity using Guid(eaa586583ee588847a1de3753726e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adafa3eadd140fab848764860dc455ce') in 0.001070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.243709 seconds.
+  path: Assets/sprite muzzle flashes/demoSettings.lighting
+  artifactKey: Guid(71a51ebd583641f47b7371872269f61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/demoSettings.lighting using Guid(71a51ebd583641f47b7371872269f61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'eb97e6f31fe0cc7bd7b6a6256a769741') in 0.003168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 316.390273 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_1
+  artifactKey: Guid(669e418612dd5ef4b81e11b4e2c37294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_1 using Guid(669e418612dd5ef4b81e11b4e2c37294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2785f54d79f57063d3e3ed4e6b9a2e') in 0.001293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118895 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_1/ef_1_00000.png
+  artifactKey: Guid(b903492db4e935f42b0048b5be61efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_1/ef_1_00000.png using Guid(b903492db4e935f42b0048b5be61efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad12053d6e2fadda93a571e4753b454') in 0.084906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.531535 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_1/ef_1_00000.png
+  artifactKey: Guid(72d99df7e99d0414abb638e12d1e97ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_1/ef_1_00000.png using Guid(72d99df7e99d0414abb638e12d1e97ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d2fc6fd9101e9accdb3b2f13b10457') in 0.097829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_1/ef_1_00001.png
+  artifactKey: Guid(8b09b92b309e1294dbbc0e22a2aa79aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_1/ef_1_00001.png using Guid(8b09b92b309e1294dbbc0e22a2aa79aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420c72a6994bba0c21e7dec7de3767b1') in 0.097252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_1/ef_1_00002.png
+  artifactKey: Guid(0d229a02b9408d9418410ca4f94f8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_1/ef_1_00002.png using Guid(0d229a02b9408d9418410ca4f94f8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b68e69c3938371c70b8846ab2e4e99') in 0.079779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_1/ef_1_00001.png
+  artifactKey: Guid(ac1e729d63e009147851635e32f0bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_1/ef_1_00001.png using Guid(ac1e729d63e009147851635e32f0bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cf9fc6f33c4c1937f9ad0a6aa29d81') in 0.074141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.981792 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_1/ef_1_00002.png
+  artifactKey: Guid(a4ea97d48a8233547ad8780f11de578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_1/ef_1_00002.png using Guid(a4ea97d48a8233547ad8780f11de578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192610a5f4c380a17816d1b04c806f9d') in 0.074383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028987 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_1/ef_1_00002.png
+  artifactKey: Guid(aee6cbfc5cd8bb947a6e4319d6e8a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_1/ef_1_00002.png using Guid(aee6cbfc5cd8bb947a6e4319d6e8a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf5579a9610a1953f7750d4edd0a774') in 0.078179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.152075 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_2/ef_2_00000.png
+  artifactKey: Guid(fda8c54b52960fb4f8f8039190373821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_2/ef_2_00000.png using Guid(fda8c54b52960fb4f8f8039190373821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67638888d8b7be85c1aaaab4144e13c3') in 0.058413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_2/ef_2_00000.png
+  artifactKey: Guid(0926c418f33b9cb419487a56bea67a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_2/ef_2_00000.png using Guid(0926c418f33b9cb419487a56bea67a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8851e898c776186929206d3d713f2124') in 0.063531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_2/ef_2_00001.png
+  artifactKey: Guid(844989efb07c5b34d90a13b60a2256bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_2/ef_2_00001.png using Guid(844989efb07c5b34d90a13b60a2256bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bd14b4fe7f311ca5687eed1594b543') in 0.065160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_2/ef_2_00002.png
+  artifactKey: Guid(e9df8abb7b5ac2b47a1f49bba7cb7e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_2/ef_2_00002.png using Guid(e9df8abb7b5ac2b47a1f49bba7cb7e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3196d31d877888325c5c39b4fb9eb087') in 0.047389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195776 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_2/ef_2_00002.png
+  artifactKey: Guid(b66d3702892e29f43920839463b3e24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_2/ef_2_00002.png using Guid(b66d3702892e29f43920839463b3e24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a865dadd8151416eba219cfcb98111b') in 0.044640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_3/ef_3_00000.png
+  artifactKey: Guid(b823ae5debd986149aae0dd917e137bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_3/ef_3_00000.png using Guid(b823ae5debd986149aae0dd917e137bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bce19d0680fe744b7ff9b082d609c28') in 0.055254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_3/ef_3_00001.png
+  artifactKey: Guid(63b3c1ec84a6ea749b618b3b418544c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_3/ef_3_00001.png using Guid(63b3c1ec84a6ea749b618b3b418544c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98606e585321d24cead7b9e6a01fefad') in 0.059689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_3/ef_3_00001.png
+  artifactKey: Guid(347102c0f1efdd541aa1ead2c4142287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_3/ef_3_00001.png using Guid(347102c0f1efdd541aa1ead2c4142287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75ace87871793ebc17c185d98153007') in 0.048053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_3/ef_3_00001.png
+  artifactKey: Guid(703761b88bf68c342acd031fe644925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_3/ef_3_00001.png using Guid(703761b88bf68c342acd031fe644925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e63b78d54f5e2c792a35bc36f78093') in 0.046608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.158752 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_3/ef_3_00001.png
+  artifactKey: Guid(fabbfa94a522b0e46a962de853854616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_3/ef_3_00001.png using Guid(fabbfa94a522b0e46a962de853854616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d5a09d175f6c6ccf503275d7b2cbfd') in 0.044979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_3/ef_3_00002.png
+  artifactKey: Guid(64e746ba0e28ba74d848a81f3cf59098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_3/ef_3_00002.png using Guid(64e746ba0e28ba74d848a81f3cf59098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedbc8f03618cb39045e2a1bc6aa52bc') in 0.053491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_4/ef_4_00001.png
+  artifactKey: Guid(d2cdbae0954ec244bad0ab742dc70f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_4/ef_4_00001.png using Guid(d2cdbae0954ec244bad0ab742dc70f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20858a3a842a5d6f3bcde9b63839e30d') in 0.035873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_4/ef_4_00000.png
+  artifactKey: Guid(dab5e25e5a4ed1f429e82045877371b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_4/ef_4_00000.png using Guid(dab5e25e5a4ed1f429e82045877371b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd27ec22fa25d0ca920e6c497ae9afc') in 0.024962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_4/ef_4_00000.png
+  artifactKey: Guid(c2e72132275b583428bba4e416d374aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_4/ef_4_00000.png using Guid(c2e72132275b583428bba4e416d374aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1671ad4bd7f4f144bea114f521995a2') in 0.031726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_3/ef_3_00002.png
+  artifactKey: Guid(73dd00528f4dea4468a832b9eeffa066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_3/ef_3_00002.png using Guid(73dd00528f4dea4468a832b9eeffa066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8e2bebe9279d984163e0508fdffcf7') in 0.047576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141498 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_4/ef_4_00001.png
+  artifactKey: Guid(de2a4c7f23d48b648b0cb7200a6adf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_4/ef_4_00001.png using Guid(de2a4c7f23d48b648b0cb7200a6adf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09736ead93f9bef3f14c824e43d280df') in 0.034529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_4/ef_4_00002.png
+  artifactKey: Guid(da683121e8b8b8b49a13b379e15c2324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_4/ef_4_00002.png using Guid(da683121e8b8b8b49a13b379e15c2324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfcdf386c4877c1b6132924d9902491') in 0.028434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_4/ef_4_00003.png
+  artifactKey: Guid(e0d1ca0b1b1fb4943acf3ef24fdb8242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_4/ef_4_00003.png using Guid(e0d1ca0b1b1fb4943acf3ef24fdb8242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d424e0652e7e1591fd51f68c020a87b') in 0.030846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_5/ef_5_00000.png
+  artifactKey: Guid(b848fe326c3c04e449ad1002d7f74eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_5/ef_5_00000.png using Guid(b848fe326c3c04e449ad1002d7f74eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208d8f36426512f1061bd60220c9f41d') in 0.040510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_4/ef_4_00003.png
+  artifactKey: Guid(b029fa02b43cbef428e81125cd228da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_4/ef_4_00003.png using Guid(b029fa02b43cbef428e81125cd228da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3009d2037db08e051475328da5d7b4c8') in 0.029596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_5/ef_5_00000.png
+  artifactKey: Guid(47d5f46bb916ef6469dfe33f73bf7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_5/ef_5_00000.png using Guid(47d5f46bb916ef6469dfe33f73bf7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0edbf0047a0c0d3e7e5d5d7217ec15e') in 0.031830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.206283 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_5/ef_5_00000.png
+  artifactKey: Guid(30db8fee414fa3f459dd6880972bdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_5/ef_5_00000.png using Guid(30db8fee414fa3f459dd6880972bdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6670e83feab6bf792bf5de0af4c944') in 0.038408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008721 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_5/ef_5_00001.png
+  artifactKey: Guid(d6ddb43d95c39474a95f3b90f98492e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_5/ef_5_00001.png using Guid(d6ddb43d95c39474a95f3b90f98492e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba6e191696df089b2c4344ecbeeb4c1') in 0.058833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_5/ef_5_00002.png
+  artifactKey: Guid(8cf9a6e8928ae6a42b0934dd962ad904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_5/ef_5_00002.png using Guid(8cf9a6e8928ae6a42b0934dd962ad904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e7ae93313995d62a7412c69ce6ba80') in 0.038577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_5/ef_5_00002.png
+  artifactKey: Guid(64061109dc04a9b489c53b35b742dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_5/ef_5_00002.png using Guid(64061109dc04a9b489c53b35b742dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe394b5a90d8add638ddba6f24861ea') in 0.029497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_5/ef_5_00002.png
+  artifactKey: Guid(2cfa45b861c6d374e9ebcfb45910838f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_5/ef_5_00002.png using Guid(2cfa45b861c6d374e9ebcfb45910838f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7cd5ebacc42a3350faa23073046c76') in 0.038513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.225077 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_6/ef_6_00000.png
+  artifactKey: Guid(343fe2c7c03b667419de2faaf50d9608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_6/ef_6_00000.png using Guid(343fe2c7c03b667419de2faaf50d9608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d75a642ddf2e9c200e9198211aa5ade') in 0.061317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_6/ef_6_00002.png
+  artifactKey: Guid(9b7315b1f249f0c4980361f8c7f18dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_6/ef_6_00002.png using Guid(9b7315b1f249f0c4980361f8c7f18dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb76e797c09659977570df609d0b218') in 0.060799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_6/ef_6_00003.png
+  artifactKey: Guid(2d693f74f8727bf40ab755dc40a0735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_6/ef_6_00003.png using Guid(2d693f74f8727bf40ab755dc40a0735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f31361a2411afa3a06aeee52a9fa19') in 0.052824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_6/ef_6_00003.png
+  artifactKey: Guid(39741074d1e7be149b493cef566098dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_6/ef_6_00003.png using Guid(39741074d1e7be149b493cef566098dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0f866e4d1ad4f9d22ef459ac92ea89') in 0.055808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.649731 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_7/ef_7_00000.png
+  artifactKey: Guid(1631c64df3732c44a8010ad9be9a33a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_7/ef_7_00000.png using Guid(1631c64df3732c44a8010ad9be9a33a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af8f57bfa31ebf6113510f893853c49') in 0.074831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_7/ef_7_00001.png
+  artifactKey: Guid(6572817506da65b4092ff07d56bd14df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_7/ef_7_00001.png using Guid(6572817506da65b4092ff07d56bd14df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89ef242a5175b2b4cc027edf2665bcc') in 0.066931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.161762 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_7/ef_7_00001.png
+  artifactKey: Guid(42c5ece658836c14c80ea14477330cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_7/ef_7_00001.png using Guid(42c5ece658836c14c80ea14477330cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2c942bcf2588fe612fc0514d680959') in 0.053972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_7/ef_7_00002.png
+  artifactKey: Guid(c37133bfc71af2449807c9dd1cc57d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_7/ef_7_00002.png using Guid(c37133bfc71af2449807c9dd1cc57d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33737067e1af90b179c6600156db8f19') in 0.063392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_8/ef_8_00000.png
+  artifactKey: Guid(6a8ad1d0895a827478ff5622c4afc2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_8/ef_8_00000.png using Guid(6a8ad1d0895a827478ff5622c4afc2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e512bf45e13206301bda54c676d5e11') in 0.065057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.602172 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_8/ef_8_00000.png
+  artifactKey: Guid(7096ad4c7a2d2354cb36964b40914ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_8/ef_8_00000.png using Guid(7096ad4c7a2d2354cb36964b40914ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0f943b40365d8ff23c989696ca5c7e') in 0.052677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026352 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_8/ef_8_00001.png
+  artifactKey: Guid(1ea93da06f393374b83cace9a9f7a09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_8/ef_8_00001.png using Guid(1ea93da06f393374b83cace9a9f7a09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585dac6c1e3b970192a49bf79bf08254') in 0.067894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.814152 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_8/ef_8_00002.png
+  artifactKey: Guid(0d90841ae5dd4804dbb3362374414a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_8/ef_8_00002.png using Guid(0d90841ae5dd4804dbb3362374414a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bb509b6cbb600d4256b0a526169a5f') in 0.052485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017124 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_8/ef_8_00002.png
+  artifactKey: Guid(d86bd39339ff59b4c9398aa47558097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_8/ef_8_00002.png using Guid(d86bd39339ff59b4c9398aa47558097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd11bfd9ec5e16508b3b4bb7699a9a0a') in 0.050764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.362489 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_8/ef_8_00003.png
+  artifactKey: Guid(c8a3f00b50a91c84786ecdb48329b0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_8/ef_8_00003.png using Guid(c8a3f00b50a91c84786ecdb48329b0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f11e12f2c397017f04d0d07d1330de') in 0.053169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045936 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_9/ef_9_00000.png
+  artifactKey: Guid(59fc963c88017f244867d33ed23e1e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_9/ef_9_00000.png using Guid(59fc963c88017f244867d33ed23e1e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0474e14f9aa710907298cf4a89958e2') in 0.038070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.439988 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_9/ef_9_00001.png
+  artifactKey: Guid(0031f51a779efd547a4ae48ad90b7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_9/ef_9_00001.png using Guid(0031f51a779efd547a4ae48ad90b7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5bbc5dcf9e4706698f5c1f3437f3dc') in 0.040565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017790 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_9/ef_9_00002.png
+  artifactKey: Guid(c63181d3e2d6cd647bb22affb8eba573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_9/ef_9_00002.png using Guid(c63181d3e2d6cd647bb22affb8eba573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c2d546c46936e82ee5c45b836ca228') in 0.032396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.173537 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_9/ef_9_00002.png
+  artifactKey: Guid(b14dcb1488f988845a89f47e31a2728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_9/ef_9_00002.png using Guid(b14dcb1488f988845a89f47e31a2728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64990172d4addd381263efe187fabe1f') in 0.038885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239997 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_9/ef_9_00003.png
+  artifactKey: Guid(63f9d8723d22d4f45826018b17c55dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_9/ef_9_00003.png using Guid(63f9d8723d22d4f45826018b17c55dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc218da828f679735790b4fef8b1f4d') in 0.033036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.184509 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_9/ef_9_00003.png
+  artifactKey: Guid(4543a80abd678754fbaada8fee2ab713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_9/ef_9_00003.png using Guid(4543a80abd678754fbaada8fee2ab713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814eba59787a53d46f244fdc4f46937c') in 0.041027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131576 seconds.
+  path: Assets/sprite muzzle flashes/Blue/ef_10/ef_10_00000.png
+  artifactKey: Guid(425b2c9535cdc75409f4f784fdc13211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Blue/ef_10/ef_10_00000.png using Guid(425b2c9535cdc75409f4f784fdc13211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25534d55893caf401ec7d1c5d1e10f38') in 0.068273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.771331 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_10/ef_10_00001.png
+  artifactKey: Guid(2f784788f3759a345a6905e5e7ac2a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_10/ef_10_00001.png using Guid(2f784788f3759a345a6905e5e7ac2a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2fd93cf68381047f7ed1dcc5d0e828') in 0.067425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.369493 seconds.
+  path: Assets/sprite muzzle flashes/Green/ef_10/ef_10_00001.png
+  artifactKey: Guid(2ce351cdc750635418b1a87026fb7ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Green/ef_10/ef_10_00001.png using Guid(2ce351cdc750635418b1a87026fb7ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549be35582567f349e505710856e4040') in 0.060017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019487 seconds.
+  path: Assets/sprite muzzle flashes/Purple/ef_10/ef_10_00002.png
+  artifactKey: Guid(093b98b1f9acbee4f9b92583f5fe4dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Purple/ef_10/ef_10_00002.png using Guid(093b98b1f9acbee4f9b92583f5fe4dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d150752820f3b4b1e9b967a3c3f5af') in 0.058193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.572731 seconds.
+  path: Assets/sprite muzzle flashes/Red/ef_10/ef_10_00003.png
+  artifactKey: Guid(a838ef5f64690954ebe68e4b38606b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite muzzle flashes/Red/ef_10/ef_10_00003.png using Guid(a838ef5f64690954ebe68e4b38606b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb141ddec98e4f299f24708b0a61e58d') in 0.046860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18156c965f69027825002cf72d19d43') in 0.123014 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003762 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projet\3DU1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projet\3DU1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (718ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3952.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 2.732500 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.189500 ms MarkObjects: 2.201300 ms  DeleteObjects: 0.075700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1187.306201 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990ae6e4d4ce83a107d4892ca70d1e9f') in 0.240937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.479061 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-dark@2x.png
+  artifactKey: Guid(68295f1d2b4db9040ac84ac00d5554a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-dark@2x.png using Guid(68295f1d2b4db9040ac84ac00d5554a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf227c655e065ea4d63762e2ab51e3b3') in 0.021065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png
+  artifactKey: Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png using Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bb36f96f98a632b6e080148fb096aa') in 0.036879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshechristmas.png
+  artifactKey: Guid(9c0d6ec706e01ce448aea81584af092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshechristmas.png using Guid(9c0d6ec706e01ce448aea81584af092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f551eb5acb02d09b88f765e47cfd522e') in 0.057733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png
+  artifactKey: Guid(70632ddfe8e71b04b8f90ef7e29a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png using Guid(70632ddfe8e71b04b8f90ef7e29a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954006a78d349ecb8a722b5ff1f5cc4e') in 0.022115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshe.png
+  artifactKey: Guid(dae33700bd23f76409a80bf78fdb8a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshe.png using Guid(dae33700bd23f76409a80bf78fdb8a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29e973eaaa99755c424396b774c75b4') in 0.065065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.050746 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5a20e1025f67f59cc739df69588f49') in 0.077366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8609f50f4f5111e2cf8cc251a3f39a') in 0.045731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dfca9887ac9518d47f89a8e212f835') in 0.074007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12d521d273ff3132653b39a7b8aefc3') in 0.093648 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
